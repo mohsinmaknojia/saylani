@@ -1,0 +1,113 @@
+@media (max-width: 991px) {
+    
+.topbar{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.topbar p{
+    margin-bottom: 5px;
+}
+
+.topbar ul{
+    margin-bottom: 0px;
+}
+
+.topbar .sociallinks ul li{
+    margin-right: 0px;
+    padding: 0px 10px;
+}
+
+.donors button {
+    margin-left: 0px;
+}
+
+.dropdown-menu{
+    padding-top: 0px;
+}
+
+
+.dropdown-menu {
+    background-color: white;
+    left: 100%;
+}
+
+.dropdown-menu li{
+    background: none;
+}
+
+.dropdown-submenu>.dropdown-menu {
+
+    margin-top:0px;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    background-color: white;
+    left: 100%;
+    position: absolute;
+}
+
+.navbar ul li:hover > a {
+    background-color: #316DC3 !important;
+    border-radius: 50px;
+}
+
+.navbar ul li:hover > a{
+    color: white !important;
+}
+
+.dropdown .dropdown-submenu .dropdown-menu{
+    margin-top: -40px;
+}
+
+.c-box {
+    margin-bottom: 40px;
+}
+
+
+.subheading {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+footer .subheading {
+    margin-top: 4px;
+}
+
+#copyright{
+    text-align: center;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+ }
+
+ @media (max-width: 576px) {
+    .dropdown .dropdown-submenu .dropdown-menu{
+        margin-top: -80px;
+        left: 80%;
+    }
+
+    .dropdown-submenu{
+        position: relative !important;
+    }
+
+    .dropdown-submenu > .dropdown-menu{
+        position: relative !important;
+        left: 0% !important;
+        margin-top: 5px !important;
+    }
+
+    .dropdown-menu .dropdown-toggle::after {
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-top: .3em solid;
+        border-left: .3em solid transparent;
+        position: absolute;
+        top: 15px;
+        margin-left: 10px;
+    }
+
+ }

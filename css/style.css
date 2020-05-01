@@ -1,0 +1,413 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-toggler{
+    background-color: #316DC3;
+}
+
+#updates marquee{
+    background-color: #316DC3;
+}
+
+#updates marquee a{
+    color: white;
+}
+
+#updates marquee span{
+    color: rgb(0, 255, 0);
+}
+
+body{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+.light-bg{
+    background-color: #f7f8fa !important;
+}
+
+.logo{
+    width: 200px;
+}
+
+.navbar a{
+    padding: 8px 15px !important;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(51, 51, 51) !important;
+}
+.navbar-nav a:hover{
+    background: #316DC3;
+    border-radius: 50px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.mainheading{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.mainheading h1{
+    color: #316DC3;
+}
+
+.mainheading h1 span{
+    color: #427900;
+    font-family: 'Merriweather', serif;
+}
+
+.title-icon{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.title-icon:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #427900;
+    top: 30px;
+    right: 20px;
+}
+
+.title-icon:after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #427900;
+    top: 30px;
+    left: 20px;
+}
+
+#intro{
+    text-align: justify;
+}
+
+#counter{
+    background-color: #316DC3;
+}
+
+.c-box{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.c-box img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.c-box h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.c-box h5 span{
+    color: rgb(0, 255, 0);
+}
+
+.d-box{
+    text-align: center;
+    padding: 30px 0px;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.16);
+    margin-bottom: 30px;
+}
+
+.d-box img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.d-box h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #316DC3;
+
+}
+
+.m-box{
+    padding: 20px 15px;
+    border: 1px solid #eeeeee;
+    background-color: #f7f8fa;
+    margin-bottom: 20px;
+}
+
+.m-box img{
+    float: left;
+    margin-right: 40px;
+}
+
+.m-box h4{
+    margin: 5px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    color: #316DC3;
+}
+
+.subheading{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.border-b{
+    border-bottom: 1px solid grey;
+}
+
+.subheading::before{
+    content: '';
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 2px;
+    bottom: -1px;
+}
+
+#images .card{
+    border: none;
+    border-radius: 0px;
+}
+
+.hover-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.9;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+}
+
+.img-item{
+    overflow: hidden;
+    position: relative;
+}
+
+.img-item img{
+    transition: 1s ease-in-out;
+}
+
+.hover-img ul{
+    position: absolute;
+    top: -35px;
+    transition: .2s ease-in-out;
+}
+
+.img-item:hover .hover-img ul{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-item:hover .hover-img{
+    visibility: visible;
+}
+
+.img-item:hover img{
+   transform: scale(1.5);
+}
+
+.hover-img ul{
+margin: 0px;
+list-style-type: none;
+width: 70px;
+display: flex;
+justify-content: space-between;
+}
+
+.hover-img ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hover-img svg:not(:root).svg-inline--fa {
+    background-color: #316DC3;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: #bbb;
+    padding: 80px 0px 0px 0px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul svg:not(:root).svg-inline--fa{
+    margin-right: 10px;
+    color: #427900;
+}
+
+footer .subheading{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer-social ul li{
+    display: inline-block;
+}
+
+.footer-social ul svg:not(:root).svg-inline--fa {
+    background-color: #316DC3;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+#copyright{
+    background-color: #316DC3;
+    margin-top: 40px;
+    padding: 10px 0px;
+}
+
+.topbar{
+    background-color: #316DC3;
+    padding: 15px 0px 0px 0px;
+    color: white;
+
+}
+
+.topbar .sociallinks ul{
+    list-style-type: none;
+}
+
+.topbar .sociallinks ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.topbar .sociallinks ul li a{
+    color: white;
+    font-size: 16px;
+}
+
+.donors button{
+    border-radius: 0px;
+    font-size: 12px;
+    border: 1px solid black;
+    margin-left: 7px;
+}
+
+
+.navbar a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #666 !important;
+    display: block;
+}
+
+.dropdown-menu{
+    background: none;
+    padding-top: 20px;
+    border: none;
+}
+
+.dropdown-menu li{
+    background: white;
+}
+
+.dropdown-menu li a:hover{
+    border-radius: 0px;
+}
+
+
+.dropdown-submenu{
+    width: 210px;
+}
+
+.submenu-w{
+    width: 300px;
+}
+
+.submenu-m{
+    width: 200px;
+}
+
+.navbar .dropdown-menu a{
+    font-size: 12px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-20px;
+}
+
+
+.fixednav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    left: 0px;
+    z-index: 2;
+    top: 0px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/toggle-icon.png);
+    background-repeat: no-repeat;
+}
+
+
+.dropdown-menu .dropdown-toggle::after {
+    border-top: .3em solid transparent;
+    border-right: 0;
+    border-left: .3em solid;
+    border-bottom: .3em solid transparent;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.navbar-toggler{
+    margin: 10px;
+}
